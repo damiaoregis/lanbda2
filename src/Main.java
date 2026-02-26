@@ -3,7 +3,7 @@ import model.entities.Product;
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 void main() {
-    String path = "C:\\Users\\damia\\IdeaProjects\\lanbda2\\src\\in.txt";
+    String path = "\\lanbda2\\src\\in.txt";
     try (BufferedReader br = new BufferedReader(new FileReader(path))) {
         List<Product> list = new ArrayList<>();
 
